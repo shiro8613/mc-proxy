@@ -1,4 +1,4 @@
-FROM --platform=$TARGETOS/$TARGETARCH rust:1.79.0 AS builder
+FROM --platform=$TARGETOS/$TARGETARCH rust:1.89.0 AS builder
 
 WORKDIR /app
 
